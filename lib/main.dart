@@ -56,7 +56,7 @@ class NinjaCard extends StatelessWidget {
             ),
          SizedBox(height: 10.0),
               Text(
-               '25',
+               '20',
                style: TextStyle(
                  color: Colors.amberAccent[200],
                  letterSpacing: 2.0,
@@ -69,7 +69,7 @@ class NinjaCard extends StatelessWidget {
             children: <Widget> [
               Icon(
                 Icons.email,
-                color: Colors.grey[400],
+                color: Colors.blue[400],
               ),
                 SizedBox(width: 10.0),
                  Text(
