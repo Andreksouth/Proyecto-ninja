@@ -68,28 +68,38 @@ class NinjaCard extends StatelessWidget {
           Row(
             children: <Widget> [
               Icon(
-                Icons.email,
-                color: Colors.blue[400],
+                Icons.local_fire_department_outlined,
+                color: Colors.red[800],
               ),
                 SizedBox(width: 10.0),
+                 
                  Text(
-                   'chun.li@thenetninja.co.uk',
+                   'Poder fire 75%',
                    style: TextStyle(
-                     color: Colors.grey[400],
+                     color: Colors.red[400],
                      fontSize: 18.0,
                      letterSpacing: 1.0,
                    ), 
                  ),
+SizedBox(width: 25.0),
+Icon(
+                Icons.ac_unit,
+                color: Colors.blue[800],
+              ),
+                    Text(
+                   'Poder  Freezer 55%',
+                   style: TextStyle(
+                     color: Colors.blue[400],
+                     fontSize: 18.0,
+                     letterSpacing: 1.0,
+                   ), 
+                   ),
             ],
           )
-          
-          
           ],
   )
  ),
-  );
-
-  
+  );  
   }
 }
 
