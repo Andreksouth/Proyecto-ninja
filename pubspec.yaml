@@ -19,7 +19,7 @@ publish_to: 'none' # Remove this line if you wish to publish to pub.dev
 version: 1.0.0+1
 
 environment:
-  sdk: '>=2.19.5 <3.0.0'
+  sdk: '>=2.19.6 <3.0.0'
 
 # Dependencies specify other packages that your package needs in order to work.
 # To automatically upgrade your package dependencies to the latest versions
@@ -39,6 +39,11 @@ dependencies:
 dev_dependencies:
   flutter_test:
     sdk: flutter
+     http: ^0.13.4
+     intl: ^0.17.0
+  flutter_world_time: ^0.6.0
+  flutter_spinkit: ^5.0.0
+    
 
   # The "flutter_lints" package below contains a set of recommended lints to
   # encourage good coding practices. The lint set provided by the package is
@@ -58,10 +63,10 @@ flutter:
   # the material Icons class.
   uses-material-design: true
 
-  # To add assets to your application, add an assets section, like this:
+   #To add assets to your application, add an assets section, like this:
   assets:
-    - assets/image/mario.jpg
- 
+     - assets/
+     
 
   # An image asset can refer to one or more resolution-specific "variants", see
   # https://flutter.dev/assets-and-images/#resolution-aware
